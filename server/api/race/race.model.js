@@ -3,8 +3,9 @@
 import mongoose from 'mongoose';
 
 var RaceSchema = new mongoose.Schema({
-  name: String,
-  info: String,
+  horsename: String,
+  jockey: String,
+  trainer: String,
   active: Boolean
 });
 
